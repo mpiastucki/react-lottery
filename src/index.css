@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+#root {
+    display: grid;
+    place-items: center;
+}
+.container {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid rgb(31, 163, 184);
+    margin: 20px;
+    max-width: 1000px;
+}
+
+.lottery-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lottery-form > * {
+    margin: 20px;
+}
+
+.lottery-form > h1 {
+    color: rgb(31, 163, 184);
+}
+
+.lottery-form > input {
+    height: 2em;
+    width: 25em;
+    text-align: center;
+}
+
+.lottery-form > button {
+    background-color: rgb(31, 163, 184);
+    color: whitesmoke;
+    border: none;
+    width: 6em;
+    height: 3em;
+    border-radius: 1.2em;
+    font-size: 1.2em;
+}
+
+.splash-image {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+
+::placeholder {
+    text-align: center;
+}
