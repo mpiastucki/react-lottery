@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     border: 3px solid rgb(31, 163, 184);
     margin: 20px;
-    max-width: 1000px;
+    max-width: max-content;
 }
 
 .lottery-form {
