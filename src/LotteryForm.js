@@ -1,7 +1,8 @@
 import React from 'react'
 import SubmitButton from './SubmitButton'
+import sunriseImage from "./john-towner-CakC6u4d95g-unsplash.jpg"
 
-function LotteryForm(props){
+function LotteryForm(){
     return (
         <>
         <div className='lottery-form'>
@@ -12,3 +13,5 @@ function LotteryForm(props){
         </>
     )
 }
+
+export default LotteryForm
